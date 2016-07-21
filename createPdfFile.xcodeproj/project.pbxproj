@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA610E9E1D1FBFB50090ACAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA610E9D1D1FBFB50090ACAB /* main.m */; };
+		EA610EA11D1FBFB50090ACAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA610EA01D1FBFB50090ACAB /* AppDelegate.m */; };
+		EA610EA41D1FBFB50090ACAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA610EA31D1FBFB50090ACAB /* ViewController.m */; };
+		EA610EA71D1FBFB50090ACAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA610EA51D1FBFB50090ACAB /* Main.storyboard */; };
+		EA610EA91D1FBFB50090ACAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA610EA81D1FBFB50090ACAB /* Assets.xcassets */; };
+		EA610EAC1D1FBFB50090ACAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA610EAA1D1FBFB50090ACAB /* LaunchScreen.storyboard */; };
+		EA610EB71D1FBFB60090ACAB /* createPdfFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA610EB61D1FBFB60090ACAB /* createPdfFileTests.m */; };
+		EA610EC21D1FBFB60090ACAB /* createPdfFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA610EC11D1FBFB60090ACAB /* createPdfFileUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA610EB31D1FBFB60090ACAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA610E911D1FBFB50090ACAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA610E981D1FBFB50090ACAB;
+			remoteInfo = createPdfFile;
+		};
+		EA610EBE1D1FBFB60090ACAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA610E911D1FBFB50090ACAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA610E981D1FBFB50090ACAB;
+			remoteInfo = createPdfFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA610E991D1FBFB50090ACAB /* createPdfFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = createPdfFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA610E9D1D1FBFB50090ACAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA610E9F1D1FBFB50090ACAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA610EA01D1FBFB50090ACAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA610EA21D1FBFB50090ACAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA610EA31D1FBFB50090ACAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA610EA61D1FBFB50090ACAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA610EA81D1FBFB50090ACAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA610EAB1D1FBFB50090ACAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA610EAD1D1FBFB50090ACAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA610EB21D1FBFB60090ACAB /* createPdfFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = createPdfFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA610EB61D1FBFB60090ACAB /* createPdfFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = createPdfFileTests.m; sourceTree = "<group>"; };
+		EA610EB81D1FBFB60090ACAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA610EBD1D1FBFB60090ACAB /* createPdfFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = createPdfFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA610EC11D1FBFB60090ACAB /* createPdfFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = createPdfFileUITests.m; sourceTree = "<group>"; };
+		EA610EC31D1FBFB60090ACAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA610E961D1FBFB50090ACAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA610EAF1D1FBFB60090ACAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA610EBA1D1FBFB60090ACAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA610E901D1FBFB50090ACAB = {
+			isa = PBXGroup;
+			children = (
+				EA610E9B1D1FBFB50090ACAB /* createPdfFile */,
+				EA610EB51D1FBFB60090ACAB /* createPdfFileTests */,
+				EA610EC01D1FBFB60090ACAB /* createPdfFileUITests */,
+				EA610E9A1D1FBFB50090ACAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA610E9A1D1FBFB50090ACAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA610E991D1FBFB50090ACAB /* createPdfFile.app */,
+				EA610EB21D1FBFB60090ACAB /* createPdfFileTests.xctest */,
+				EA610EBD1D1FBFB60090ACAB /* createPdfFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA610E9B1D1FBFB50090ACAB /* createPdfFile */ = {
+			isa = PBXGroup;
+			children = (
+				EA610E9F1D1FBFB50090ACAB /* AppDelegate.h */,
+				EA610EA01D1FBFB50090ACAB /* AppDelegate.m */,
+				EA610EA21D1FBFB50090ACAB /* ViewController.h */,
+				EA610EA31D1FBFB50090ACAB /* ViewController.m */,
+				EA610EA51D1FBFB50090ACAB /* Main.storyboard */,
+				EA610EA81D1FBFB50090ACAB /* Assets.xcassets */,
+				EA610EAA1D1FBFB50090ACAB /* LaunchScreen.storyboard */,
+				EA610EAD1D1FBFB50090ACAB /* Info.plist */,
+				EA610E9C1D1FBFB50090ACAB /* Supporting Files */,
+			);
+			path = createPdfFile;
+			sourceTree = "<group>";
+		};
+		EA610E9C1D1FBFB50090ACAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA610E9D1D1FBFB50090ACAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA610EB51D1FBFB60090ACAB /* createPdfFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA610EB61D1FBFB60090ACAB /* createPdfFileTests.m */,
+				EA610EB81D1FBFB60090ACAB /* Info.plist */,
+			);
+			path = createPdfFileTests;
+			sourceTree = "<group>";
+		};
+		EA610EC01D1FBFB60090ACAB /* createPdfFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA610EC11D1FBFB60090ACAB /* createPdfFileUITests.m */,
+				EA610EC31D1FBFB60090ACAB /* Info.plist */,
+			);
+			path = createPdfFileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA610E981D1FBFB50090ACAB /* createPdfFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA610EC61D1FBFB60090ACAB /* Build configuration list for PBXNativeTarget "createPdfFile" */;
+			buildPhases = (
+				EA610E951D1FBFB50090ACAB /* Sources */,
+				EA610E961D1FBFB50090ACAB /* Frameworks */,
+				EA610E971D1FBFB50090ACAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = createPdfFile;
+			productName = createPdfFile;
+			productReference = EA610E991D1FBFB50090ACAB /* createPdfFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA610EB11D1FBFB60090ACAB /* createPdfFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA610EC91D1FBFB60090ACAB /* Build configuration list for PBXNativeTarget "createPdfFileTests" */;
+			buildPhases = (
+				EA610EAE1D1FBFB60090ACAB /* Sources */,
+				EA610EAF1D1FBFB60090ACAB /* Frameworks */,
+				EA610EB01D1FBFB60090ACAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA610EB41D1FBFB60090ACAB /* PBXTargetDependency */,
+			);
+			name = createPdfFileTests;
+			productName = createPdfFileTests;
+			productReference = EA610EB21D1FBFB60090ACAB /* createPdfFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA610EBC1D1FBFB60090ACAB /* createPdfFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA610ECC1D1FBFB60090ACAB /* Build configuration list for PBXNativeTarget "createPdfFileUITests" */;
+			buildPhases = (
+				EA610EB91D1FBFB60090ACAB /* Sources */,
+				EA610EBA1D1FBFB60090ACAB /* Frameworks */,
+				EA610EBB1D1FBFB60090ACAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA610EBF1D1FBFB60090ACAB /* PBXTargetDependency */,
+			);
+			name = createPdfFileUITests;
+			productName = createPdfFileUITests;
+			productReference = EA610EBD1D1FBFB60090ACAB /* createPdfFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA610E911D1FBFB50090ACAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "sachita sharma";
+				TargetAttributes = {
+					EA610E981D1FBFB50090ACAB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EA610EB11D1FBFB60090ACAB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA610E981D1FBFB50090ACAB;
+					};
+					EA610EBC1D1FBFB60090ACAB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA610E981D1FBFB50090ACAB;
+					};
+				};
+			};
+			buildConfigurationList = EA610E941D1FBFB50090ACAB /* Build configuration list for PBXProject "createPdfFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA610E901D1FBFB50090ACAB;
+			productRefGroup = EA610E9A1D1FBFB50090ACAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA610E981D1FBFB50090ACAB /* createPdfFile */,
+				EA610EB11D1FBFB60090ACAB /* createPdfFileTests */,
+				EA610EBC1D1FBFB60090ACAB /* createPdfFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA610E971D1FBFB50090ACAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA610EAC1D1FBFB50090ACAB /* LaunchScreen.storyboard in Resources */,
+				EA610EA91D1FBFB50090ACAB /* Assets.xcassets in Resources */,
+				EA610EA71D1FBFB50090ACAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA610EB01D1FBFB60090ACAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA610EBB1D1FBFB60090ACAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA610E951D1FBFB50090ACAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA610EA41D1FBFB50090ACAB /* ViewController.m in Sources */,
+				EA610EA11D1FBFB50090ACAB /* AppDelegate.m in Sources */,
+				EA610E9E1D1FBFB50090ACAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA610EAE1D1FBFB60090ACAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA610EB71D1FBFB60090ACAB /* createPdfFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA610EB91D1FBFB60090ACAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA610EC21D1FBFB60090ACAB /* createPdfFileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA610EB41D1FBFB60090ACAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA610E981D1FBFB50090ACAB /* createPdfFile */;
+			targetProxy = EA610EB31D1FBFB60090ACAB /* PBXContainerItemProxy */;
+		};
+		EA610EBF1D1FBFB60090ACAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA610E981D1FBFB50090ACAB /* createPdfFile */;
+			targetProxy = EA610EBE1D1FBFB60090ACAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA610EA51D1FBFB50090ACAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA610EA61D1FBFB50090ACAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA610EAA1D1FBFB50090ACAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA610EAB1D1FBFB50090ACAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA610EC41D1FBFB60090ACAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA610EC51D1FBFB60090ACAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA610EC71D1FBFB60090ACAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = createPdfFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruco.com.createPdfFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA610EC81D1FBFB60090ACAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = createPdfFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruco.com.createPdfFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA610ECA1D1FBFB60090ACAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = createPdfFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruco.com.createPdfFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/createPdfFile.app/createPdfFile";
+			};
+			name = Debug;
+		};
+		EA610ECB1D1FBFB60090ACAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = createPdfFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruco.com.createPdfFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/createPdfFile.app/createPdfFile";
+			};
+			name = Release;
+		};
+		EA610ECD1D1FBFB60090ACAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = createPdfFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruco.com.createPdfFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = createPdfFile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA610ECE1D1FBFB60090ACAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = createPdfFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruco.com.createPdfFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = createPdfFile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA610E941D1FBFB50090ACAB /* Build configuration list for PBXProject "createPdfFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA610EC41D1FBFB60090ACAB /* Debug */,
+				EA610EC51D1FBFB60090ACAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA610EC61D1FBFB60090ACAB /* Build configuration list for PBXNativeTarget "createPdfFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA610EC71D1FBFB60090ACAB /* Debug */,
+				EA610EC81D1FBFB60090ACAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA610EC91D1FBFB60090ACAB /* Build configuration list for PBXNativeTarget "createPdfFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA610ECA1D1FBFB60090ACAB /* Debug */,
+				EA610ECB1D1FBFB60090ACAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA610ECC1D1FBFB60090ACAB /* Build configuration list for PBXNativeTarget "createPdfFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA610ECD1D1FBFB60090ACAB /* Debug */,
+				EA610ECE1D1FBFB60090ACAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA610E911D1FBFB50090ACAB /* Project object */;
+}
